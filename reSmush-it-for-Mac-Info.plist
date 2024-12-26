@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CFBundleDisplayName</key>
+        <string>reSmush.it for Mac</string>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        <key>NSDownloadsFolderUsageDescription</key>
+        <string>Cette application a besoin d'accéder au dossier Téléchargements pour sauvegarder des fichiers optimisés.</string>
+        <key>NSAppTransportSecurity</key>
+        <dict>
+            <key>NSExceptionDomains</key>
+            <dict>
+                <key>resmush.it</key>
+                <dict>
+                    <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                    <true/>
+                    <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                    <true/>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                </dict>
+            </dict>
+        </dict>
+    </dict>
+</plist>
