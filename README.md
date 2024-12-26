@@ -85,3 +85,9 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 For issues, suggestions, or contributions, please open an issue or contact the repository maintainer.
 
+---
+
+## IA
+
+This app has been developed thanks to GPT-4o1
+
